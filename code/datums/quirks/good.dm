@@ -207,3 +207,12 @@
 	mob_trait = TRAIT_VORACIOUS
 	gain_text = "<span class='notice'>You feel HONGRY.</span>"
 	lose_text = "<span class='danger'>You no longer feel HONGRY.</span>"
+
+/datum/quirk/Cloth_eater
+	name = "Cloth Eater"
+	desc = "You've got a strong mouth, and the ability to chew through and eat common clothing items."
+	value = 4
+	mob_trait = TRAIT_CLOTH_EATER
+	gain_text = "<span class='notice'>You feel like you can chew through all sorts of cloth.</span>"
+	lose_text = "<span class='notice'>You no longer feel like you can chew through cloth.</span>"
+	medical_record_text = "Patient's mouth contains enough strength to easily consume common clothing items."
